@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Colocation Pattern 
-Mining
+title: Colocation Pattern Mining
 description: 
 img: assets/img/colocation.jpeg
 importance: 1
