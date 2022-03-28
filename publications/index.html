@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://adsai.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Applied Data Science and AI lab (ADS-AI) | Page not found</title>
+    <title>Applied Data Science and AI lab (ADS-AI) | Publications</title>
     <meta name="author" content="Venktesh  V" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Publications by categories in reversed chronological order." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://adsai.github.io/404.html">
+    <link rel="canonical" href="https://adsai.github.io/publications/">
 
 
 
@@ -78,8 +78,8 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/people/">People</a>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">Publications</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">Publications<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">Research</a>
@@ -107,12 +107,142 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Publications</h1>
+            <p class="post-description">Publications by categories in reversed chronological order.</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://adsai.github.io/">here</a>.</p>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"></ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="DBLP:journals/corr/abs-2201-10982" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Topic Aware Contextualized Embeddings for High Quality Phrase Extraction</div>
+          <!-- Author -->
+          <div class="author">V, Venktesh, Mohania, Mukesh K., and Goyal, Vikram
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>ECIR</em> 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="kaur2021navigation" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A Navigation System for Safe Routing</div>
+          <!-- Author -->
+          <div class="author">Kaur, Ramneek, Goyal, Vikram, Guntur, Venkata MV, Saini, Aakanksha, Sanadhya, Kaushal, Gupta, Ritvik, and Ratra, Siftee
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2021 22nd IEEE International Conference on Mobile Data Management (MDM)</em> 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="10.1007/978-3-030-86517-7_24" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">TagRec: Automated Tagging of Questions with Hierarchical Learning Taxonomy</div>
+          <!-- Author -->
+          <div class="author">Venktesh, V *., 
+                  <em>Mohania, Mukesh</em>, and Goyal, Vikram
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In ECML-PKDD</em> 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Online educational platforms organize academic questions based on a hierarchical learning taxonomy (subject-chapter-topic). Automatically tagging new questions with existing taxonomy will help organize these questions into different classes of hierarchical taxonomy so that they can be searched based on the facets like chapter, topic. This task can be formulated as a flat multi-class classification problem. Usually, flat classification based methods ignore the semantic relatedness between the terms in the hierarchical taxonomy and the questions. Some traditional methods also suffer from the class imbalance issues as they consider only the leaf nodes ignoring the hierarchy. Hence, we formulate the problem as a similarity-based retrieval task where we optimize the semantic relatedness between the taxonomy and the questions. We demonstrate that our method helps to handle the unseen labels and hence can be used for taxonomy tagging in the wild, like the question-answer forums. In this method, we augment the question with its corresponding answer to capture more semantic information and then align the question-answer pair’s contextualized embedding with the corresponding label (taxonomy) vector representations. The representations are aligned by fine-tuning a transformer based model with a loss function that is a combination of the cosine similarity and hinge rank loss. The loss function maximizes the similarity between the question-answer pair and the correct label representations and minimizes the similarity to unrelated labels. Finally, we perform extensive experiments on two real-world datasets. We empirically show that the proposed learning method outperforms representations learned using the multi-class classification method and other state of the art methods by 6% as measured by Recall@k. We also demonstrate the performance of the proposed method on unseen but related learning content like the learning objectives without re-training the network.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="Kaur2018FindingTM" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Finding the Most Navigable Path in Road Networks: A Summary of Results</div>
+          <!-- Author -->
+          <div class="author">Kaur, Ramneek, Goyal, Vikram, and Gunturi, Venkata M. V.
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In DEXA</em> 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
 
           </article>
 
