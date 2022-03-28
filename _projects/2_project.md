@@ -1,19 +1,20 @@
 ---
 layout: page
-title: SDN Meets IoT
-description: Studying the role of a central node as a BLE gateway
-img: assets/img/project_2.png
+title: AI in education
+description: 
+img: assets/img/aied.jpeg
 importance: 2
-category: IoT
+category: NLP
 ---
-In this research, we implement various protocols and algorithms for IOT networks with the new SDN paradigm. Our experiments is conducted on a real testbed. 
+In this research, we devise novel neural NLP and IR methods for curating linking and enriching content in online learning platforms.
 
 <h3>Related Researches:</h3>
 <ul>
-	<li>"SDN on BLE", Afshin Yousefi</li>
-	<li>"Implementing An Inter-Piconet Interference Mitigation System in Bluetooth Low Energy (BLE) Networks With A Central Controller", Reza Sarayloo, Feb 2022
+	<li>"Learning Objective generation", Venktesh V</li>
+		<li>"Fine grained Concept extraction", Venktesh V</li>
+		<li>"Tagging Learning Content with hierarchical Learning Taxonomy", Venktesh V</li>
+	<li>"Paraphrasing Math Word Problems", Rishabh Gupta, Venktesh V, Feb 2022
 		<br>
-		<a href="https://github.com/iot-kntu/interpiconet-interference">Github Code</a>
 	</li>
 </ul> 
 

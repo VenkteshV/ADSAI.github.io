@@ -4,7 +4,7 @@ title: Research
 permalink: /projects/
 description: In our lab, we are working on the following research topics. 
 nav: true
-display_categories: [IoT, Software Defined Networks]
+display_categories: [Data Mining, NLP]
 horizontal: false
 ---
 

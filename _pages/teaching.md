@@ -7,8 +7,7 @@ nav: true
 ---
 
 <ul>
-  <li> <a href='https://wp.kntu.ac.ir/h.khanmirza/ds.html'>Distributed Systems</a></li>
-  <li>Operating Systems</li>
-  <li>Programming Principals</li>
-  <li>Logic Circuits</li>
+  <li> Big Data Analytics</li>
+  <li>Data Mining</li>
+  <li>Information Integration and Analytics</li>
 </ul>
